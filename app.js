@@ -150,7 +150,7 @@ $(document).ready(function() {
 
      displayMessage()
 
-     $(".box").attr("disabled");
+     $(".box").disabled = true;
 
 
     }
@@ -160,7 +160,7 @@ $(document).ready(function() {
 
       displayLosingMessage()
 
-      $(".box").attr("disabled");
+      $(".box").disabled = true;
 
 
 
